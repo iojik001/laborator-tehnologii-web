@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHREK - Bun venit în mlaștină!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #4a7c3c;
+            background-image: linear-gradient(135deg, #4a7c3c 0%, #2d5a2d 100%);
+        }
+
+        .header {
+            background-color: #8B4513;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #654321;
+        }
+
+        .header h1 {
+            color: #90EE90;
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 3px 3px 6px #000;
+        }
+
+        .nav {
+            background-color: #654321;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #8B4513;
+            border-radius: 10px;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #90EE90;
+            color: #654321;
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h2 {
+            color: #4a7c3c;
+            font-size: 36px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .image-map-container {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #654321;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        .character-box {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+            border: 3px solid #4a7c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧅 SHREK - Lumea Basmelor 🧅</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Acasă</a>
+        <a href="shrek1.html">Shrek 1</a>
+        <a href="shrek2.html">Shrek 2</a>
+        <a href="shrek3.html">Shrek 3</a>
+        <a href="shrek4.html">Shrek 4</a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>Bun venit în mlaștină!</h2>
+            <p>Descoperă lumea minunată a lui Shrek, ogrul verde care a cucerit inimile tuturor! Explorează toate cele 4 filme din seria care a schimbat pentru totdeauna lumea animațiilor.</p>
+
+            <div class="image-map-container">
+                <h3>Explorează personajele! (Click pe personajul tău preferat)</h3>
+                <img src="https://via.placeholder.com/800x400/90EE90/654321?text=SHREK+SI+PRIETENII"
+                     usemap="#charactermap"
+                     style="max-width: 100%; border: 5px solid #654321; border-radius: 15px;">
+
+                <map name="charactermap">
+                    <area shape="rect" coords="0,0,200,400" href="shrek1.html" alt="Shrek" title="Shrek - Ogrul cu inimă mare">
+                    <area shape="rect" coords="200,0,400,400" href="shrek2.html" alt="Fiona" title="Prințesa Fiona">
+                    <area shape="rect" coords="400,0,600,400" href="shrek3.html" alt="Donkey" title="Măgarul vorbăreț">
+                    <area shape="rect" coords="600,0,800,400" href="shrek4.html" alt="Pisica" title="Pisica în Cizme">
+                </map>
+            </div>
+
+            <h2>Filmele Shrek</h2>
+            <table border="1" style="border-color: #4a7c3c;">
+                <tr>
+                    <td width="50%">
+                        <div class="character-box">
+                            <a href="shrek1.html">
+                                <img src="https://via.placeholder.com/300x200/90EE90/654321?text=SHREK+1"
+                                     style="max-width: 100%; border-radius: 10px;">
+                            </a>
+                            <h3>Shrek (2001)</h3>
+                            <p>Un ogor care își dorește liniște trebuie să salveze o prințesă pentru a-și recupera mlaștina.</p>
+                        </div>
+                    </td>
+                    <td width="50%">
+                        <div class="character-box">
+                            <a href="shrek2.html">
+                                <img src="https://via.placeholder.com/300x200/FFD700/654321?text=SHREK+2"
+                                     style="max-width: 100%; border-radius: 10px;">
+                            </a>
+                            <h3>Shrek 2 (2004)</h3>
+                            <p>Shrek și Fiona merg să-i viziteze pe socrii, dar lucrurile nu merg conform planului.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        <div class="character-box">
+                            <a href="shrek3.html">
+                                <img src="https://via.placeholder.com/300x200/87CEEB/654321?text=SHREK+3"
+                                     style="max-width: 100%; border-radius: 10px;">
+                            </a>
+                            <h3>Shrek al Treilea (2007)</h3>
+                            <p>Shrek trebuie să găsească un moștenitor pentru regatul Far Far Away.</p>
+                        </div>
+                    </td>
+                    <td width="50%">
+                        <div class="character-box">
+                            <a href="shrek4.html">
+                                <img src="https://via.placeholder.com/300x200/FF69B4/654321?text=SHREK+4"
+                                     style="max-width: 100%; border-radius: 10px;">
+                            </a>
+                            <h3>Shrek Forever After (2010)</h3>
+                            <p>Shrek face un pact cu Rumpelstiltskin și ajunge într-o realitate alternativă.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>De ce iubim Shrek?</h2>
+            <table>
+                <tr>
+                    <td width="33%" style="text-align: center;">
+                        <h3>🧅 Umor inteligent</h3>
+                        <p>Glume pentru copii și adulți!</p>
+                    </td>
+                    <td width="33%" style="text-align: center;">
+                        <h3>💚 Personaje memorabile</h3>
+                        <p>Fiecare personaj este unic și amuzant!</p>
+                    </td>
+                    <td width="33%" style="text-align: center;">
+                        <h3>🎵 Muzică grozavă</h3>
+                        <p>Coloana sonoră este fenomenală!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Shrek Fan Site | "Ogorii au straturi!" | Creat cu dragoste pentru ogrul nostru preferat 💚</p>
+    </div>
+</body>
+</html>
